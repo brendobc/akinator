@@ -110,8 +110,8 @@ function getFinalQuestions() {
         new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa largou a vida de fast-food por conta de traumas?', 'YES', 5),
         new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa é a maior karateca desse Brasil?', 'YES', 6),
         new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Por acaso, estamos falando de um fenômeno da música vindo diretamente do interior de Santa Catarina?', 'YES', 7),
-        new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa já comeu macarrão na Itália?', 'YES', 8),
-        new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa tem uma máfia de lanches em MG?', 'YES', 9),
+        new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa viajou para a Itália só para comer macarrão?', 'YES', 8),
+        new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa tem uma máfia de lanches em Manhuaçu (MG)?', 'YES', 9),
         new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Essa pessoa dá AULASSS de finanças?', 'YES', 10),
         new FinalQuestion(getNextId(resources.FINAL_QUESTIONS), 'Será que estamos falando de um dos maiores sommelieres de vinho daqui da Docket?', 'YES', 11),
     ];
