@@ -1,0 +1,10 @@
+.main-content {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../assets/images/background.jpg');
+    background-repeat: no-repeat;
+
+    min-width: 900px;
+    min-height: 500px;
+}

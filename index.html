@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akinator Docket</title>
+
+    <link rel="stylesheet" href="./styles/css/index.css">
+    <script src="./src/index.js" type="module" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-content">
+        <div id="question-box" class="main-box">
+            <p id="question-holder"></p>
+        </div>
+
+        <div id="show-character-box" class="main-box d-none">
+            <img src="./assets/images/refresh.png" height="350px" title="character-found">
+            <p id="name-character-holder"></p>
+        </div>
+
+        <div class="side-operation">
+            <button id="reset" class="reset">
+                <img src="./assets/images/refresh.png" title="recomeçar">
+            </button>
+
+            <button id="begin" class="begin button-operation">Iniciar</button>
+
+            <button id="answer-YES" class="button-operation" data-answer-value="YES">Sim</button>
+
+            <button id="answer-NO" class="button-operation" data-answer-value="NO">Não</button>
+        </div>
+    </div>
+</body>
+</html>

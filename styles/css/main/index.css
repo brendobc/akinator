@@ -1,0 +1,6 @@
+@import './variables/index.css';
+@import './global/index.css';
+
+@import './main-content.css';
+
+@import './components/index.css';

@@ -1,0 +1,65 @@
+.side-operation {
+    height: 80%;
+    width: 25%;
+    margin: auto;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: var(--blueLighter);
+    border: 2px solid var(--blueDark);
+    border-right: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-operation .reset {
+    background: transparent;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    padding: 2px;
+}
+
+.side-operation .reset:hover {
+    cursor: pointer;
+    border-radius: 50%;
+    border-color: var(--blueDark);
+}
+
+.side-operation .reset img {
+    height: 32px;
+    width: 32px;
+}
+
+.side-operation .button-operation {
+    margin: auto;
+    margin-left: 48px;
+    margin-right: 48px;
+
+    padding: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    border: 2px solid var(--blueDarker);
+    border-radius: 8px;
+
+    font-size: 18px;
+
+    transition: color .2s ease-in-out, background-color .2s ease-in-out;
+}
+
+.side-operation .button-operation:hover {
+    background-color: var(--blueDarker);
+    cursor: pointer;
+    color: white;
+}
+
+.side-operation .button-operation:disabled {
+    pointer-events: none;
+}
